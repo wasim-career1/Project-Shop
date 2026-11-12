@@ -1,0 +1,13 @@
+# Picknexo delivery
+- [x] Add supplied logo and matching orange gradients, favicon, and persistent saved-item cart without on-site checkout; empty/restored/removal states verified, real-product flow awaits owner catalogue
+- [x] Public editorial design, all public pages, category hubs, catalogue filters, educational guides and legal templates
+- [x] Durable content and message storage, protected owner operations, audit log, editing, CSV draft import/export and private uploads
+- [x] Rule-based assistant, consultant, adjustable budget planning, shared budget/comparison state, print/PDF and live event display
+- [x] Contact storage verified, optional mail configuration, newsletter collection disabled and configured WhatsApp link support
+- [x] Page metadata, dynamic sitemap, robots exclusions, ten passing tests, public desktop/mobile workflow checks and setup documentation
+- [ ] Authenticated owner CRUD/upload verification — needs an owner account and explicitly assigned role; no auth users exist
+- [ ] Real product comparisons/recommendations/deals — needs owner-approved catalogue and authorised photos
+- [ ] Complete ranked recommendation logic, typo-tolerant search, richer assistant feedback, all editable setting/category propagation and live calendar/replay controls — remaining implementation, documented in README
+- [x] AI product finder on the consultant page (catalogue-only, 500/month cap, rule-based fallback); live AI picks await published products
+- [ ] Newsletter double opt-in/unsubscribe and verified mail delivery — needs provider approval, secrets, privacy notice and approved AI cost cap
+- [ ] Canonical domain, full structured/social metadata, legal launch review and published security audit — needs real domain/legal details and further implementation

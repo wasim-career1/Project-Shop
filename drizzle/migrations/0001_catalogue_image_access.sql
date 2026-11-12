@@ -1,0 +1,3 @@
+CREATE POLICY owner_image_insert ON storage.objects FOR INSERT TO authenticated WITH CHECK(bucket_id='catalogue-images' AND public.has_role(auth.uid(),'admin'));
+CREATE POLICY owner_image_select ON storage.objects FOR SELECT TO authenticated USING(bucket_id='catalogue-images' AND public.has_role(auth.uid(),'admin'));
+CREATE POLICY owner_image_delete ON storage.objects FOR DELETE TO authenticated USING(bucket_id='catalogue-images' AND public.has_role(auth.uid(),'admin'));
